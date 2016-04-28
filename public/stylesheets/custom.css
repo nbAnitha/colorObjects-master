@@ -1,0 +1,54 @@
+#content{
+	width:900px;
+	height: 500px;
+	margin: auto;
+	background-color: #ecf0f1;
+	
+}
+.spaced{
+	margin-left: 100px;
+}
+.box{
+	min-height: 200px;
+	float: left;
+	padding: 50px;
+	color: #fff;
+	
+text-shadow: 0px 2px 3px #555;
+
+}
+.green{
+	background-color: #2ecc71;
+	
+	
+}
+.blue{
+	background-color: #3498db;
+	
+}
+.red{
+	background-color: #e74c3c;
+
+	
+
+}
+
+.shift{
+	min-width: 20px;
+	min-height: 20px;
+	float:left;
+}
+.cObj{
+	margin-top: 10px;
+}
+
+.conTitle{
+	background-color: #ecf0f1;
+	color: #95a5a6;
+	text-align: center;
+}
+
+#instructions{
+	text-align: center;
+	color: #34495e;
+}

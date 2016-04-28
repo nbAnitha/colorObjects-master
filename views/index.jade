@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    title Colored Objects
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/custom.css')
+    script(src='/javascripts/jquery-2.1.0.min.js')
+    script(src='/javascripts/underscore.js')
+    script(src='/javascripts/backbone.js')
+    script(src='/javascripts/functions.js')
+  body
+    block content
+    
+    div(id = "content")
+        h1(class = "conTitle") Colored Object
+        div(id="instructions")
+        .green.box.spaced
+            button(id='g2r' class='shift red') To red
+            button(id='g2b' class='shift blue') To blue
+            #gBox
+             
+            
+        .blue.box
+            button(id='b2g' class='shift green') To green
+            button(id='b2r' class='shift red') To red
+            #bBox
+           
+        .red.box
+            button(id='r2g' class='shift green') To green
+            button(id='r2b' class='shift blue') To blue
+            #rBox
+    
